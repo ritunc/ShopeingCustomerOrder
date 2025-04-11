@@ -17,7 +17,11 @@ mongoose.connect(process.env.MONGO_URL).then(() => console.log('MongoDB is conne
 
 const clinetOrder = new twilio(ACCOUNTSID, AUTHTOKEN);
 
-app.use(cors());
+app.use(cors({
+        origin: [`https://shopeing-rituncs-projects.vercel.app`],
+        method: ["GET", "POST", "PUT", "DELETE"],
+        credentials: true
+}));
 app.use(express.json());
 
 
