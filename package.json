@@ -1,0 +1,20 @@
+{
+  "name": "orderserver",
+  "version": "1.0.0",
+  "main": "src/api.js",
+  "scripts": {
+    "start": "node src/api.js",
+    "nodemon": "nodemon src/api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "twilio": "^5.5.2"
+  }
+}
