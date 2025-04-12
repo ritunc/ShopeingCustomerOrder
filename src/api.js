@@ -41,7 +41,7 @@ app.post("/customerOrder", async (req, res) => {
                                 body: `Appna Bazaar Customer Details:- Name:${name}, Full-Address:${address} , PinCode:${pinCode}, Landmark:${landmark}, phone:${phone}, Product-Id:${id}, ProductName:${productName}, ProductPrice:${price}`
                                 ,
                                 from: '+18283731933',
-                                to: '+919101942328'
+                                to: '+916000698647'
                         })
 
                         console.log('Message SID:', result.sid);
